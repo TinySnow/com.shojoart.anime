@@ -4,19 +4,19 @@
     <item
         android:id="@+id/MainBar_Search"
         android:icon="@drawable/ic_search_black_24dp"
-        android:title="@string/MainBar_Searh"
+        android:title="搜索"
         app:actionViewClass="android.widget.SearchView"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/MainBar_Refresh"
-        android:title="@string/MainBar_Refresh"
+        android:id="@+id/MainActivity_ToolBar_Refresh"
+        android:title="刷新"
         app:showAsAction="never" />
     <item
-        android:id="@+id/MainBar_Settings"
-        android:title="@string/MainBar_Settings"
+        android:id="@+id/MainActivity_ToolBar_Settings"
+        android:title="设置"
         app:showAsAction="never"/>
     <item
-        android:id="@+id/MainBar_About"
-        android:title="@string/MainBar_About"
+        android:id="@+id/MainActivity_ToolBar_About"
+        android:title="关于"
         app:showAsAction="never"/>
 </menu>
