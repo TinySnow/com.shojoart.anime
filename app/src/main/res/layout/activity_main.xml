@@ -10,6 +10,22 @@
         android:id="@+id/include"
         layout="@layout/main_activity_left_drawerlayout" />
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/main_acti_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/main"
+        app:navigationIcon="@drawable/ic_menu_light"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
