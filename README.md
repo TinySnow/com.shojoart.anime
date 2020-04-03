@@ -1,2 +1,2 @@
 # com.shojoart.anime
-Null temporary.
+This app is used to view some CsPhotos.
